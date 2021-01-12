@@ -1,11 +1,3 @@
-# substorm-community
-
-Scripts used during the analysis for network substorms community analysis. 
-Code uses R and matlab. Versions tested are MATLAB_R2018a and RStudio-1.3.1093
-
-Running instructions are provided in Overview.m and copied below. 
-
-Instructions- Overview.m
 %Make Communities_paper the main directory and add all folders within it to
 %the path
 
