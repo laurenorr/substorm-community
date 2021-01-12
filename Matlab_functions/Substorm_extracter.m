@@ -14,8 +14,6 @@
 %    You should have received a copy of the GNU General Public License
 %    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-%    Processing data relevent for 116 substorms by loading individual days. Includes zero lag cross-correlation matrix (CCM),
-%    max lag CCM and a matrix of the corresponding maximum lags
  [Substorms_v4_w128_t5]=SE(5,127);
  save('R/RSubstorms_v4_w128_t5.mat','Substorms_v4_w128_t5','-v6')
 
