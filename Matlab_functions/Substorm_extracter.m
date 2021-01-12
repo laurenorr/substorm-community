@@ -1,6 +1,23 @@
-%Saves the substorm structure in an R compatible manner
-% [Substorms_v4_w128_t5]=SE(5,127);
-% save('R/RSubstorms_v4_w128_t5.mat','Substorms_v4_w128_t5','-v6')
+%<Substorm_extracter.m Saves the substorm structure in an R compatible manner.>
+%    Copyright (C) <2021>  <Lauren Orr>
+
+%    This program is free software: you can redistribute it and/or modify
+%    it under the terms of the GNU General Public License as published by
+%    the Free Software Foundation, either version 3 of the License, or
+%    (at your option) any later version.
+
+%    This program is distributed in the hope that it will be useful,
+%    but WITHOUT ANY WARRANTY; without even the implied warranty of
+%    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%    GNU General Public License for more details.
+
+%    You should have received a copy of the GNU General Public License
+%    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+%    Processing data relevent for 116 substorms by loading individual days. Includes zero lag cross-correlation matrix (CCM),
+%    max lag CCM and a matrix of the corresponding maximum lags
+ [Substorms_v4_w128_t5]=SE(5,127);
+ save('R/RSubstorms_v4_w128_t5.mat','Substorms_v4_w128_t5','-v6')
 
 for surr=1:10
     [Substorms_surrogate_w128_t5]=SE_surrogate(5,127,surr);
