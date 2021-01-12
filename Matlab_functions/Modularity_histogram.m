@@ -1,3 +1,20 @@
+%<Modularity_histogram.m Plots figure 3 from Orr.et.al 2021.>
+%    Copyright (C) <2021>  <Lauren Orr>
+
+%    This program is free software: you can redistribute it and/or modify
+%    it under the terms of the GNU General Public License as published by
+%    the Free Software Foundation, either version 3 of the License, or
+%    (at your option) any later version.
+
+%    This program is distributed in the hope that it will be useful,
+%    but WITHOUT ANY WARRANTY; without even the implied warranty of
+%    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%    GNU General Public License for more details.
+
+%    You should have received a copy of the GNU General Public License
+%    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+
 Mod_flag='normed';
 LIM=0.7;
 modularity_hist_overlay_med(normalized_times2,networki_v4_w128_t5.eb,intersect([Extreme_quiet],coverage12),'all_12_extreme_quiet_col_w128_t5EB',LIM,Mod_flag)
