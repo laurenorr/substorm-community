@@ -12,7 +12,6 @@ Instructions- Overview.m
 %Preprocessing of data per day- the most recent data should be downloaded
 %from superMAG and functions may need editing depending on format. Processing takes approx 10 minutes per day and >1000 days
 %were used.
-% .mat files used in orr.et al are included in code folder.
 
  %Read in a year of SZA data txt downloaded from superMAG. Write as a structure
  %with data matrix- no. stations x minutes in year
