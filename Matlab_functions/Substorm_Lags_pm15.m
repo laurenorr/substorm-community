@@ -1,3 +1,21 @@
+
+%<Substorm_Lags_pm15.m Processing data relevent for 116 substorms by loading individual days.>
+%    Copyright (C) <2021>  <Lauren Orr>
+
+%    This program is free software: you can redistribute it and/or modify
+%    it under the terms of the GNU General Public License as published by
+%    the Free Software Foundation, either version 3 of the License, or
+%    (at your option) any later version.
+
+%    This program is distributed in the hope that it will be useful,
+%    but WITHOUT ANY WARRANTY; without even the implied warranty of
+%    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%    GNU General Public License for more details.
+
+%    You should have received a copy of the GNU General Public License
+%    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+%    Processing data relevent for 116 substorms by loading individual days. Includes zero lag cross-correlation matrix (CCM),
+%    max lag CCM and a matrix of the corresponding maximum lags
 load('Indicies_1997to2001.mat') %year,month,day,hour,minute,sec,SME,SML,SMU,SMEd,SMLd,SMUd,SMR,Bx,By,Bz,Vx,Vy,Vz 
 load('substorm_info_116.mat') %Contains onset and peak timings for each substorm
 for storm_num=[1:116]
