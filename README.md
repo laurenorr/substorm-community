@@ -16,6 +16,8 @@
 %    You should have received a copy of the GNU General Public License
 %    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
+https://zenodo.org/badge/latestdoi/308133738
+
 Scripts used during the analysis for network substorms community analysis. 
 Code uses R and matlab. Versions tested are MATLAB_R2018a and RStudio-1.3.1093
 
